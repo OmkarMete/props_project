@@ -1,16 +1,151 @@
-# React + Vite
+# 💼 Job Listing UI - React Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive Job Listing UI built using **React.js** to understand and practice the concept of **Props**. This project displays multiple job cards dynamically by passing data from a parent component (`App.jsx`) to a reusable child component (`Card.jsx`).
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="100%" src="YOUR_SCREENSHOT_OR_GIF_LINK_HERE" />
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the Oxlint configuration
+- Reusable React Components
+- Dynamic rendering using `map()`
+- Data passed using React Props
+- Job cards generated from an array of objects
+- Company logo
+- Company name
+- Job role
+- Posted date
+- Employment type
+- Experience level
+- Salary per hour
+- Job location
+- Save button with Lucide React icon
+- Apply Now button
+- Clean and modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6)
+- CSS3
+- HTML5
+- Vite
+- Lucide React Icons
+
+---
+
+## 📂 Project Structure
+
+```
+src
+│
+├── components
+│   └── Card.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📖 React Concepts Used
+
+- Functional Components
+- React Props
+- Array of Objects
+- map() Function
+- Component Reusability
+- Dynamic Rendering
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/job-listing-react-props.git
+```
+
+Go to the project folder
+
+```bash
+cd job-listing-react-props
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📌 How It Works
+
+- Job data is stored inside an array of objects in `App.jsx`.
+- Each object contains company details such as logo, name, role, salary, tags, and location.
+- The `map()` function loops through the array.
+- Every object is passed to the `Card` component using React Props.
+- The `Card` component displays each job dynamically.
+
+---
+
+## 📷 Sample Data
+
+```javascript
+{
+  name: "Google",
+  post: "Frontend Developer",
+  tag1: "Full Time",
+  tag2: "Junior Level",
+  pay: "$52/hr",
+  location: "Bangalore, India"
+}
+```
+
+---
+
+## 🎯 Learning Outcome
+
+This project helped me understand:
+
+- React Props
+- Component Reusability
+- Dynamic UI Rendering
+- Passing Data Between Components
+- Rendering Lists with map()
+- Organizing React Projects
+
+---
+
+## 👨‍💻 Author
+
+**Omkar Mete**
+
+- GitHub: https://github.com/OmkarMete
+- LinkedIn: https://linkedin.com/in/omkarmete93
+
+---
+
+## ⭐ Support
+
+If you liked this project, consider giving it a ⭐ on GitHub.
