@@ -4,7 +4,9 @@ A simple and responsive Job Listing UI built using **React.js** to understand an
 
 ## 📸 Preview
 
-<img width="100%" src="YOUR_SCREENSHOT_OR_GIF_LINK_HERE" />
+<img width="100%" src="https://github.com/user-attachments/assets/84564185-4942-4c4a-853e-addc2d8baf0d" />
+<!-- <img width="1536" height="863" alt="image" src="https://github.com/user-attachments/assets/84564185-4942-4c4a-853e-addc2d8baf0d" /> -->
+
 
 ---
 
